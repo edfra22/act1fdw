@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 16px;
+}
+body{
+	
+	background:url(../image/fondo.jpeg) no-repeat center fixed;
+	background-size: cover;
+    display: block;
+}
+#menuPrincipal{
+	background-color: rgba(100, 19, 19, 0.76);
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+header{
+padding: 30 px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 15 px;
+}
+.opcionMenuPrincipal{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 50px;
+	cursor: pointer;
+	position: relative;
+	font-size: 2rem;
+}
+.opcionMenuPrincipal:hover{
+	background-color: rgba(208, 102, 235, 0.4);
+}
+.contenedor{
+	width: 600px;
+	border:solid 1px rgb(0, 0, 0);
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+    background-color: rgb(184, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.quienesomos{
+	position: relative;
+	background-color: #afddbc;
+	font-size: 1.5rem;
+}
+.res{
+	width: 700px;
+	border:solid 1px #177f9e;
+	padding: 10px;
+	margin: 10px auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	background-color: rgba(255, 255, 255, 0.596);
+}
+.opc{
+    font-size: 15px;
+}
+h3{
+    font-size: 35px;
+}
+input[type="button"]{
+	width: 30%;
+	padding: 5px;
+	margin-bottom: 10px;
+	display: block;
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: 100;
+	margin: 0 auto;
+	position: relative;
+}
+
+footer{
+	background-color: rgba(32, 64, 78, 0.9);
+	height: 100px;
+    text-align: center;
+}
+#pie{
+    top: 3px;
+    text-align: center;
+    color: rgba(148, 188, 206, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 50px;
+	font-size: 15px;
+    padding-top: 0px;
+}
